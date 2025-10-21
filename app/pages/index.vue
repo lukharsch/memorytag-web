@@ -65,19 +65,25 @@
             lebendig werden.
           </p>
           <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
-            <button
+            <a
               data-slot="button"
               class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-[var(--primary-color)] bg-[var(--primary-color)] text-white px-6 py-3"
               title="Warteliste"
+              role="button"
+              href="https://my-momentify.de"
+              target="_blank"
             >
-              Warteliste</button
-            ><button
+              Warteliste
+            </a>
+            <a
               data-slot="button"
               class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-950 bg-scheme-background text-scheme-text px-6 py-3"
               title="Mehr erfahren"
+              role="button"
+              href="#funktionsweise"
             >
               Mehr erfahren
-            </button>
+            </a>
           </div>
         </div>
         <div>
@@ -91,7 +97,7 @@
     </div>
   </section>
 
-  <section class="px-[5%] py-16 md:py-24 lg:py-28">
+  <section class="px-[5%] py-16 md:py-24 lg:py-28" id="funktionsweise">
     <div class="container">
       <div class="flex flex-col items-center">
         <div class="mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
@@ -102,13 +108,13 @@
             Kleiner NFC-Chip. Große Wirkung.
           </h2>
           <p class="text-md">
-            Dem MemoryTag verschmilzt physische Objekte mit digitalen
+            Dem MemoryTag verschmelzt physische Objekte mit digitalen
             Erinnerungen. Sodass deine Lieblingsmomente nie wieder im Nirvana
             verschwinden - und immer griffbereit sind.
           </p>
         </div>
         <div
-          class="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12"
+          class="grid grid-cols-1 items-center justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12"
         >
           <div class="flex w-full flex-col items-center text-center">
             <div class="mb-5 md:mb-6">
@@ -271,17 +277,16 @@
 
   <section>
     <div class="sticky top-0">
-      <div class="relative -top-32 h-0"></div>
-      <div class="bg-white md:pb-14 sticky pb-0 top-0 mb-32 min-h-[100dvh]">
-        <div class="px-[5%]">
+      <div class="bg-white sticky pb-0 top-0 sm:max-md:min-h-[100dvh]">
+        <div class="px-6 md:pb-12">
           <div class="container">
-            <a href="#" class="flex h-16 w-full items-center underline"
-              ><span class="text-md mr-5 font-semibold md:mr-6">01</span>
+            <a href="#" class="flex h-16 w-full items-center underline">
+              <span class="text-md mr-5 font-semibold md:mr-6">01</span>
               <h1 class="text-md font-semibold">
                 Fotoleinwand deiner Weltreise
-              </h1></a
-            >
-            <div class="pt-4 pb-8 md:py-10 lg:py-12">
+              </h1>
+            </a>
+            <div class="py-8">
               <div
                 class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
               >
@@ -302,7 +307,7 @@
                 <div class="relative">
                   <img
                     src="https://picsum.photos/800/600"
-                    class="h-auto w-full rounded-image object-cover sm:h-[30rem] lg:h-[60vh]"
+                    class="h-auto w-full rounded-image object-cover"
                     alt="Relume placeholder image 1"
                   />
                 </div>
@@ -311,17 +316,16 @@
           </div>
         </div>
       </div>
-      <div class="relative -top-32 h-0"></div>
       <div
-        class="border-t border-neutral-950 bg-white md:pb-14 sticky pb-0 top-16 -mt-16 mb-16 min-h-[100dvh]"
+        class="border-t border-neutral-950 bg-white sticky pb-0 top-16 mb-4 sm:max-md:min-h-[100dvh]"
       >
-        <div class="px-[5%]">
+        <div class="px-6 md:pb-12">
           <div class="container">
-            <a href="#" class="flex h-16 w-full items-center underline"
-              ><span class="text-md mr-5 font-semibold md:mr-6">02</span>
-              <h1 class="text-md font-semibold">Dein erstes Eigenheim</h1></a
-            >
-            <div class="pt-4 pb-8 md:py-10 lg:py-12">
+            <a href="#" class="flex h-16 w-full items-center underline">
+              <span class="text-md mr-5 font-semibold md:mr-6">02</span>
+              <h1 class="text-md font-semibold">Dein erstes Eigenheim</h1>
+            </a>
+            <div class="py-8">
               <div
                 class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
               >
@@ -343,7 +347,7 @@
                 <div class="relative">
                   <img
                     src="https://picsum.photos/800/600"
-                    class="h-auto w-full rounded-image object-cover sm:h-[30rem] lg:h-[60vh]"
+                    class="h-auto w-full rounded-image object-cover"
                     alt="Relume placeholder image 2"
                   />
                 </div>
@@ -352,11 +356,10 @@
           </div>
         </div>
       </div>
-      <div class="relative -top-32 h-0"></div>
       <div
-        class="border-t border-neutral-950 bg-white md:pb-14 sticky pb-0 top-36 -mt-36 mb-4 min-h-[100dvh]"
+        class="border-t border-neutral-950 bg-white sticky pb-0 top-32 mb-4 sm:max-md:min-h-[100dvh]"
       >
-        <div class="px-[5%]">
+        <div class="px-6 md:pb-12">
           <div class="container">
             <a href="#" class="flex h-16 w-full items-center underline">
               <span class="text-md mr-5 font-semibold md:mr-6">03</span>
@@ -364,7 +367,7 @@
                 Die ersten Jahre deiner Tochter
               </h1>
             </a>
-            <div class="pt-4 pb-8 md:py-10 lg:py-12">
+            <div class="py-8">
               <div
                 class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
               >
@@ -385,7 +388,7 @@
                 <div class="relative">
                   <img
                     src="https://picsum.photos/800/600"
-                    class="h-auto w-full rounded-image object-cover sm:h-[30rem] lg:h-[60vh]"
+                    class="h-auto w-full rounded-image object-cover"
                     alt="Relume placeholder image 3"
                   />
                 </div>
@@ -621,19 +624,26 @@
             MemoryTag zu kaufen gibt.
           </p>
           <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
-            <button
+            <a
               data-slot="button"
               class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-[var(--primary-color)] bg-[var(--primary-color)] text-white px-6 py-3"
               title="IHK Pitch Abstimmung"
+              role="button"
+              href="https://www.ihk.de/ulm/hauptnavigation/existenzgruendung/veranstaltungen-termine/ihk-netzwerktag-2024-6734278?shortUrl=%2Fnetzwerktag"
+              target="_blank"
             >
-              IHK Pitch Abstimmung</button
-            ><button
+              IHK Pitch Abstimmung
+            </a>
+            <a
               data-slot="button"
               class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-white text-white px-6 py-3"
               title="Warteliste im Shop"
+              role="button"
+              href="https://my-momentify.de"
+              target="_blank"
             >
               Warteliste im Shop
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -667,15 +677,6 @@
     </div>
   </footer>
 </template>
-
-<script setup lang="ts">
-const scrollToSection = (id: string) => {
-  const el = document.getElementById(id);
-  if (el) {
-    el.scrollIntoView({ behavior: "smooth" });
-  }
-};
-</script>
 
 <style>
 :root {
@@ -721,4 +722,13 @@ const scrollToSection = (id: string) => {
   --logo-pill-box-shadow: inset 0 0px 8px 3px rgb(37 37 37 / 30%);
   --navigation-container-box-shadow: 0px 15px 15px 1px rgb(0 0 0 / 82%);
 }
+
+* {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+}
 </style>
+<script setup lang="ts"></script>
