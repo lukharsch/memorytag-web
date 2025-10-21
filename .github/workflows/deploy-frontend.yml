@@ -34,3 +34,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           timeout: 100000
           local-dir: ./.output/public/
+          server-dir: /html/
+          dangerous-clean-slate: false
