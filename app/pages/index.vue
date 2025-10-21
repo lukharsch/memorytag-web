@@ -1,6 +1,6 @@
 <template>
   <section
-    class="z-[999] grid w-full grid-cols-[1fr_max-content_1fr] items-center justify-between border-b border-neutral-300 bg-scheme-background px-[5%] md:min-h-18"
+    class="black z-[999] grid w-full grid-cols-[1fr_max-content_1fr] items-center justify-between border-b border-b-neutral-600 bg-scheme-background px-[5%] md:min-h-18 navbar"
   >
     <!--<button class="flex size-12 flex-col justify-center lg:hidden">
     <span class="my-[3px] h-0.5 w-6 bg-neutral-950 lg:hidden"></span
@@ -9,21 +9,24 @@
     </button>-->
     <div class="flex-size-12 lg:hidden"></div>
     <div
-      class="absolute top-0 left-0 z-50 flex h-dvh w-[90%] flex-col border-r border-neutral-300 bg-white px-[5%] pb-4 md:w-[80%] lg:visible lg:static lg:-ml-4 lg:flex lg:h-auto lg:w-auto lg:flex-row lg:border-none lg:px-0 lg:pb-0 lg:[--opacity-closed:100%] lg:[--x-closed:0%]"
+      class="absolute top-0 left-0 z-50 flex h-dvh w-[90%] flex-col border-r text-neutral-300 border-b-neutral-600 px-[5%] pb-4 md:w-[80%] lg:visible lg:static lg:-ml-4 lg:flex lg:h-auto lg:w-auto lg:flex-row lg:border-none lg:px-0 lg:pb-0 lg:[--opacity-closed:100%] lg:[--x-closed:0%]"
       style="
         opacity: var(--opacity-closed, 0%);
         transform: translateX(var(--x-closed, -100%));
       "
     >
-      <a href="#" class="mt-10 mb-8 flex shrink-0 lg:hidden"
-        ><img src="/logo.svg" alt="Logo image" /></a
-      ><a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2"
-        >Funktion</a
-      ><a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2"
-        >Anwendungsbeispiele</a
-      ><a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2"
-        >Untersützen</a
-      >
+      <a href="#" class="mt-10 mb-8 flex shrink-0 lg:hidden">
+        <img src="/logo-white.svg" alt="Logo image" />
+      </a>
+      <a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2">
+        Funktion
+      </a>
+      <a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2">
+        Anwendungsbeispiele
+      </a>
+      <a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2">
+        Untersützen
+      </a>
       <!--<button
         data-slot="button"
         class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-950 bg-neutral-950 text-white px-5 py-2 mt-6 w-full lg:hidden"
@@ -33,13 +36,13 @@
     </button>-->
     </div>
     <a href="#" class="flex min-h-16 shrink-0 items-center"
-      ><img src="/logo.svg" alt="Logo image" class="h-10"
+      ><img src="/logo-white.svg" alt="Logo image" class="h-10"
     /></a>
     <div class="flex min-h-16 items-center justify-end gap-x-4 max-sm:hidden">
       <div>
         <button
           data-slot="button"
-          class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-950 bg-neutral-950 text-white px-4 py-1 md:px-6 md:py-2"
+          class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-300 bg-neutral-950 text-neutral-300 px-4 py-1 md:px-6 md:py-2"
           title="Shop"
         >
           Shop
@@ -48,10 +51,10 @@
     </div>
   </section>
 
-  <section class="py-16 md:py-24 lg:py-28">
+  <section class="pt-16 md:py-24 lg:py-28 hero">
     <div class="container m-auto">
       <div
-        class="grid grid-cols-1 gap-x-20 gap-y-12 md:gap-y-16 lg:grid-cols-2 lg:items-center"
+        class="grid grid-cols-1 gap-x-20 gap-y-12 md:gap-y-16 md:grid-cols-2 lg:items-center text-neutral-300"
       >
         <div class="px-[5%]">
           <h1 class="text-4xl mb-5 font-bold md:mb-6">
@@ -77,7 +80,7 @@
             </a>
             <a
               data-slot="button"
-              class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-950 bg-scheme-background text-scheme-text px-6 py-3"
+              class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-300 bg-scheme-background text-scheme-text px-6 py-3"
               title="Mehr erfahren"
               role="button"
               href="#funktionsweise"
@@ -89,7 +92,7 @@
         <div>
           <img
             src="/hero.png"
-            class="w-full rounded-image object-cover"
+            class="w-full rounded-image object-cover max-md:visible hidden max-md:block"
             alt="Relume placeholder image"
           />
         </div>
@@ -357,7 +360,7 @@
         </div>
       </div>
       <div
-        class="border-t border-neutral-950 bg-white sticky pb-0 top-32 mb-4 sm:max-md:min-h-[100dvh]"
+        class="border-t border-neutral-950 bg-white sticky pb-0 top-32 sm:max-md:min-h-[100dvh]"
       >
         <div class="px-6 md:pb-12">
           <div class="container">
@@ -604,7 +607,9 @@
     </div>
   </section>
 
-  <section class="relative px-[5%] py-16 md:py-24 lg:py-28 bg-neutral-950">
+  <section
+    class="black relative px-[5%] py-16 md:py-24 lg:py-28 bg-neutral-950"
+  >
     <div class="relative z-10 container">
       <div
         class="grid grid-rows-1 items-start gap-y-5 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:gap-x-20 lg:gap-y-16"
@@ -616,11 +621,11 @@
         </div>
         <div>
           <p class="text-md text-white">
-            Wir stellen unser Produkt im November auf dem Elevator Pitch der IHK
-            Ulm-Biberach vor - um unsere Vision weiterzutragen. Wenn ihr uns
-            unterstützen wollt, könnt ihr gerne für uns abstimmen. Ihr wollt zu
-            den ersten gehören, die den MemoryTag ihr Eigen nennen? Tragt euch
-            in unsere Warteliste ein und werdet informiert, sobald es den
+            Wir wollen unser Produkt im November auf dem Elevator Pitch der IHK
+            Ulm-Biberach vorstellen - um unsere Vision weiterzutragen. Wenn ihr
+            uns unterstützen wollt, könnt ihr gerne für uns abstimmen. Ihr wollt
+            zu den ersten gehören, die den MemoryTag ihr Eigen nennen? Tragt
+            euch in unsere Warteliste ein und werdet informiert, sobald es den
             MemoryTag zu kaufen gibt.
           </p>
           <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
@@ -653,7 +658,7 @@
   <footer class="px-[5%] py-12 md:py-18 lg:py-20">
     <div class="container">
       <div
-        class="grid grid-cols-1 items-center justify-center gap-x-[8vw] gap-y-12 sm:gap-y-10 md:gap-y-14 lg:grid-cols-[1fr_0.5fr]"
+        class="grid grid-cols-1 items-center justify-center gap-x-[8vw] gap-y-12 sm:gap-y-10 md:gap-y-14"
       >
         <div class="flex flex-col items-center">
           <a href="#" class="mb-8"
@@ -727,8 +732,44 @@
   scroll-behavior: smooth;
 }
 
+html {
+  background: #060a0d;
+}
+
 .container {
   margin: 0 auto;
 }
+
+.hero {
+  background: linear-gradient(
+    270deg,
+    rgba(10, 16, 18, 1) 0%,
+    rgba(6, 10, 13, 1) 100%
+  );
+}
+
+@media screen and (min-width: 48rem) {
+  .hero {
+    background-image: url("/hero-desktop.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: clamp(400px, 80vh, 800px);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.navbar {
+  background: linear-gradient(
+    270deg,
+    rgba(10, 16, 18, 1) 0%,
+    rgba(6, 10, 13, 1) 100%
+  );
+}
+
+section:not(.black),
+footer {
+  background-color: var(--background-color);
+}
 </style>
-<script setup lang="ts"></script>
