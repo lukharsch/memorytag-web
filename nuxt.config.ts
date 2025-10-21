@@ -13,4 +13,32 @@ export default defineNuxtConfig({
   nitro: {
     preset: "static",
   },
+  app: {
+    head: {
+      title: "MemoryTag",
+      meta: [
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { charset: "utf-8" },
+        {
+          name: "description",
+          content:
+            "Mit MemoryTag bleiben deinen digitalen Erinnerungen für immer erhalten. Teile deine Fotos und Alben einfach mit Freunden und Familie.",
+        },
+        { name: "author", content: "MemoryTag" },
+        {
+          name: "keywords",
+          content: "MemoryTag, Fotos, Alben, Teilen, NFC, Erinnerungen",
+        },
+        { property: "og:title", content: "MemoryTag" },
+        {
+          property: "og:description",
+          content:
+            "Mit MemoryTag bleiben deinen digitalen Erinnerungen für immer erhalten. Teile deine Fotos und Alben einfach mit Freunden und Familie.",
+        },
+        { property: "og:type", content: "website" },
+        { property: "og:image", content: "/favicon.png" },
+      ],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
+    },
+  },
 });
