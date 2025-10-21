@@ -33,4 +33,4 @@ jobs:
           username: p690445f1
           password: ${{ secrets.FTP_PASSWORD }}
           timeout: 100000
-          local-dir: ./dist/
+          local-dir: ./.output/public/
