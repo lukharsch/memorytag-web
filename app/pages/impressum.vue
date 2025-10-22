@@ -1,5 +1,7 @@
 <template>
-  <div class="flex justify-center items-center flex-col text-center p-4">
+  <div
+    class="flex justify-center items-center flex-col text-center p-4 bg-white"
+  >
     <NuxtLink to="/"><img src="/logo.svg" class="h-10 my-4" /></NuxtLink>
     <h1 class="text-3xl mt-6">Impressum</h1>
 
