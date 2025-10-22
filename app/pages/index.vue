@@ -18,14 +18,23 @@
       <a href="#" class="mt-10 mb-8 flex shrink-0 lg:hidden">
         <img src="/logo-white.svg" alt="Logo image" />
       </a>
-      <a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2">
+      <a
+        href="#funktionsweise"
+        class="text-regular relative block py-3 lg:px-4 lg:py-2"
+      >
         Funktion
       </a>
-      <a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2">
+      <a
+        href="#anwendungsbeispiele"
+        class="text-regular relative block py-3 lg:px-4 lg:py-2"
+      >
         Anwendungsbeispiele
       </a>
-      <a href="#" class="text-regular relative block py-3 lg:px-4 lg:py-2">
-        Untersützen
+      <a
+        href="#unterstutzen"
+        class="text-regular relative block py-3 lg:px-4 lg:py-2"
+      >
+        Unterstützen
       </a>
       <!--<button
         data-slot="button"
@@ -39,8 +48,14 @@
       ><img src="/logo-white.svg" alt="Logo image" class="h-10"
     /></a>
     <div class="flex min-h-16 items-center justify-end gap-x-4 max-sm:hidden">
-      <div>
-        <a
+      <a href="https://my-momentify.de">
+        <img
+          src="/icons/shopping-cart.svg"
+          alt="Shopping Cart"
+          class="h-6 w-6"
+        />
+      </a>
+      <!--<a
           data-slot="button"
           class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-300 bg-neutral-950 text-neutral-300 px-4 py-1 md:px-6 md:py-2"
           title="Shop"
@@ -49,8 +64,7 @@
           target="_blank"
         >
           Shop
-        </a>
-      </div>
+        </a>-->
     </div>
   </section>
 
@@ -71,7 +85,7 @@
             lebendig werden.
           </p>
           <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
-            <a
+            <!--<a
               data-slot="button"
               class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-[var(--primary-color)] bg-[var(--primary-color)] text-white px-6 py-3"
               title="Warteliste"
@@ -80,7 +94,7 @@
               target="_blank"
             >
               Warteliste
-            </a>
+            </a>-->
             <a
               data-slot="button"
               class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-300 bg-scheme-background text-scheme-text px-6 py-3"
@@ -126,20 +140,24 @@
             <div class="mb-5 md:mb-6">
               <img src="/icons/circle-plus-2.svg" alt="" class="size-12" />
             </div>
-            <h3 class="text-xl mb-5 font-bold md:mb-6">Überall anzubringen</h3>
+            <h3 class="text-xl mb-5 font-bold md:mb-6 text-pretty">
+              Überall einsetzbar - unsichtbar anzubringen
+            </h3>
           </div>
           <div class="flex w-full flex-col items-center text-center">
             <div class="mb-5 md:mb-6">
               <img src="/icons/tools.svg" alt="" class="size-12" />
             </div>
-            <h3 class="text-xl mb-5 font-bold md:mb-6">Einfache Einrichtung</h3>
+            <h3 class="text-xl mb-5 font-bold md:mb-6 text-pretty">
+              Kinderleichtes Setup - in Sekunden einsatzbereit
+            </h3>
           </div>
           <div class="flex w-full flex-col items-center text-center">
             <div class="mb-5 md:mb-6">
               <img src="/icons/mood-smile-beam.svg" alt="" class="size-12" />
             </div>
             <h3 class="text-xl mb-5 font-bold md:mb-6 text-pretty">
-              Kein Abo, keine Werbung, keine App nötig
+              Kein Abo, keine Werbung und keine App nötig
             </h3>
           </div>
           <div class="flex w-full flex-col items-center text-center">
@@ -147,7 +165,7 @@
               <img src="/icons/heart.svg" alt="" class="size-12" />
             </div>
             <h3 class="text-xl mb-5 font-bold md:mb-6 text-pretty">
-              Die schönsten Erinnerungen immer wieder erleben
+              Erlebe deine schönsten Erinnerungen immer wieder
             </h3>
           </div>
         </div>
@@ -257,7 +275,10 @@
     </div>
   </section>
 
-  <section class="px-[5%] pt-16 pb-0 md:pt-24 lg:pt-28">
+  <section
+    id="anwendungsbeispiele"
+    class="px-[5%] pt-16 pb-0 md:pt-24 lg:pt-28"
+  >
     <div class="container">
       <div class="flex flex-col items-center">
         <div class="mb-12 w-full max-w-lg text-center md:mb-18">
@@ -398,7 +419,7 @@
     </div>
   </section>
 
-  <section class="px-[5%] py-16 md:py-24 lg:py-28">
+  <section id="team" class="px-[5%] py-16 md:py-24 lg:py-28">
     <div class="container">
       <div class="mx-auto mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
         <p class="mb-3 font-semibold md:mb-4 text-[var(--primary-color)]">
@@ -554,6 +575,7 @@
   </section>
 
   <section
+    id="unterstutzen"
     class="black relative px-[5%] py-16 md:py-24 lg:py-28 bg-neutral-950"
   >
     <div class="relative z-10 container">
