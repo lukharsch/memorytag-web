@@ -205,7 +205,7 @@
             class="flex w-full flex-col items-center justify-center self-start"
           >
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+              src="/howto/schritt2.png"
               alt="Relume placeholder image 1"
               class="object-cover"
               style="aspect-ratio: 8 / 10"
@@ -411,14 +411,14 @@
         </p>
       </div>
       <div
-        class="grid grid-cols-1 items-start justify-center gap-x-8 gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12"
+        class="grid grid-cols-1 items-start justify-center gap-x-8 gap-y-12 md:grid-cols-1 md:gap-x-8 md:gap-y-16 lg:gap-x-12"
       >
         <div class="flex flex-col text-center">
           <div class="mb-5 flex w-full items-center justify-center md:mb-6">
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
-              alt="Relume placeholder image 1"
-              class="size-20 min-h-20 min-w-20 rounded-full object-cover"
+              src="/lukas.jpg"
+              alt="Lukas Harsch, Gründer MemoryTag"
+              class="size-20 min-h-20 min-w-20 md:size-36 rounded-full object-cover"
             />
           </div>
           <div class="mb-3 md:mb-4">
