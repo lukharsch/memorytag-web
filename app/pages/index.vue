@@ -40,13 +40,16 @@
     /></a>
     <div class="flex min-h-16 items-center justify-end gap-x-4 max-sm:hidden">
       <div>
-        <button
+        <a
           data-slot="button"
           class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-300 bg-neutral-950 text-neutral-300 px-4 py-1 md:px-6 md:py-2"
           title="Shop"
+          role="button"
+          href="https://my-momentify.de"
+          target="_blank"
         >
           Shop
-        </button>
+        </a>
       </div>
     </div>
   </section>
@@ -121,45 +124,31 @@
         >
           <div class="flex w-full flex-col items-center text-center">
             <div class="mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                alt="Relume logo 1"
-                class="size-12"
-              />
+              <img src="/icons/circle-plus-2.svg" alt="" class="size-12" />
             </div>
             <h3 class="text-xl mb-5 font-bold md:mb-6">Überall anzubringen</h3>
-            <p>Der MemoryTag kann an jedes Objekt angebracht werden</p>
           </div>
           <div class="flex w-full flex-col items-center text-center">
             <div class="mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                alt="Relume logo 1"
-                class="size-12"
-              />
+              <img src="/icons/tools.svg" alt="" class="size-12" />
             </div>
             <h3 class="text-xl mb-5 font-bold md:mb-6">Einfache Einrichtung</h3>
-            <p>
-              Das digitale Album hinter dem MemoryTag ist in Sekunden
-              eingerichtet und kann jederzeit mit digitalen Inhalten befüllt
-              werden
-            </p>
           </div>
           <div class="flex w-full flex-col items-center text-center">
             <div class="mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                alt="Relume logo 1"
-                class="size-12"
-              />
+              <img src="/icons/mood-smile-beam.svg" alt="" class="size-12" />
             </div>
-            <h3 class="text-xl mb-5 font-bold md:mb-6">
+            <h3 class="text-xl mb-5 font-bold md:mb-6 text-pretty">
+              Kein Abo, keine Werbung, keine App nötig
+            </h3>
+          </div>
+          <div class="flex w-full flex-col items-center text-center">
+            <div class="mb-5 md:mb-6">
+              <img src="/icons/heart.svg" alt="" class="size-12" />
+            </div>
+            <h3 class="text-xl mb-5 font-bold md:mb-6 text-pretty">
               Die schönsten Erinnerungen immer wieder erleben
             </h3>
-            <p>
-              Den MemoryTag gibt es mit verschiedenen Speichergrößen. Ohne Abo,
-              ohne Werbung.
-            </p>
           </div>
         </div>
       </div>
@@ -189,8 +178,10 @@
             class="flex w-full flex-col items-center justify-center self-start"
           >
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+              src="/howto/schritt1.png"
               alt="Relume placeholder image 1"
+              class="object-cover"
+              style="aspect-ratio: 8 / 10"
             />
           </div>
           <div class="flex flex-1 flex-col justify-center p-6 md:p-8">
@@ -216,6 +207,8 @@
             <img
               src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
               alt="Relume placeholder image 1"
+              class="object-cover"
+              style="aspect-ratio: 8 / 10"
             />
           </div>
           <div class="flex flex-1 flex-col justify-center p-6 md:p-8">
@@ -240,8 +233,10 @@
             class="flex w-full flex-col items-center justify-center self-start"
           >
             <img
-              src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
+              src="/howto/schritt3.png"
               alt="Relume placeholder image 1"
+              class="object-cover"
+              style="aspect-ratio: 8 / 10"
             />
           </div>
           <div class="flex flex-1 flex-col justify-center p-6 md:p-8">
@@ -283,12 +278,12 @@
       <div class="bg-white sticky pb-0 top-0 sm:max-md:min-h-[100dvh]">
         <div class="px-6 md:pb-12">
           <div class="container">
-            <a href="#" class="flex h-16 w-full items-center underline">
+            <span class="flex h-16 w-full items-center underline">
               <span class="text-md mr-5 font-semibold md:mr-6">01</span>
-              <h1 class="text-md font-semibold">
+              <span class="text-md font-semibold">
                 Fotoleinwand deiner Weltreise
-              </h1>
-            </a>
+              </span>
+            </span>
             <div class="py-8">
               <div
                 class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
@@ -324,10 +319,10 @@
       >
         <div class="px-6 md:pb-12">
           <div class="container">
-            <a href="#" class="flex h-16 w-full items-center underline">
+            <span class="flex h-16 w-full items-center underline">
               <span class="text-md mr-5 font-semibold md:mr-6">02</span>
-              <h1 class="text-md font-semibold">Dein erstes Eigenheim</h1>
-            </a>
+              <span class="text-md font-semibold">Dein erstes Eigenheim</span>
+            </span>
             <div class="py-8">
               <div
                 class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
@@ -364,12 +359,12 @@
       >
         <div class="px-6 md:pb-12">
           <div class="container">
-            <a href="#" class="flex h-16 w-full items-center underline">
+            <span class="flex h-16 w-full items-center underline">
               <span class="text-md mr-5 font-semibold md:mr-6">03</span>
-              <h1 class="text-md font-semibold">
+              <span class="text-md font-semibold">
                 Die ersten Jahre deiner Tochter
-              </h1>
-            </a>
+              </span>
+            </span>
             <div class="py-8">
               <div
                 class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
@@ -407,14 +402,12 @@
     <div class="container">
       <div class="mx-auto mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
         <p class="mb-3 font-semibold md:mb-4 text-[var(--primary-color)]">
-          Wer sind wir?
+          Hey!
         </p>
-        <h2 class="text-3xl mb-5 font-bold md:mb-6">
-          Das Team hinter MemoryTag
-        </h2>
+        <h2 class="text-3xl mb-5 font-bold md:mb-6">Wer bin ich?</h2>
         <p class="text-md">
-          Wir sind selber Kunden unseres Produktes - deshalb stecken wir all
-          unsere Passion rein.
+          Ich bin selber Kunden meines Produktes - deshalb stecke ich all meine
+          Passion rein.
         </p>
       </div>
       <div
@@ -432,55 +425,8 @@
             <h5 class="text-large font-semibold">Lukas Harsch</h5>
             <h6 class="text-md">Gründer, Software, Hardware</h6>
           </div>
-          <div
-            class="mt-6 grid grid-flow-col grid-cols-[max-content] gap-3.5 self-center"
-          >
-            <a href="#"
-              ><svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 24 24"
-                class="size-6"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"
-                ></path></svg></a
-            ><a href="#"
-              ><svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 512 512"
-                class="size-6 p-0.5"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-                ></path></svg></a
-            ><a href="#"
-              ><svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 24 24"
-                class="size-6"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"
-                ></path></svg
-            ></a>
-          </div>
         </div>
-        <div class="flex flex-col text-center">
+        <!--<div class="flex flex-col text-center">
           <div class="mb-5 flex w-full items-center justify-center md:mb-6">
             <img
               src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
@@ -539,8 +485,8 @@
                 ></path></svg
             ></a>
           </div>
-        </div>
-        <div class="flex flex-col text-center">
+        </div>-->
+        <!--<div class="flex flex-col text-center">
           <div class="mb-5 flex w-full items-center justify-center md:mb-6">
             <img
               src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg"
@@ -599,7 +545,7 @@
                 ></path></svg
             ></a>
           </div>
-        </div>
+        </div>-->
       </div>
       <div
         class="mx-auto mt-14 w-full max-w-md text-center md:mt-20 lg:mt-24"
@@ -773,3 +719,4 @@ footer {
   background-color: var(--background-color);
 }
 </style>
+<script setup lang="ts"></script>
