@@ -120,7 +120,7 @@
           </p>
         </div>
         <div
-          class="grid grid-cols-1 items-center justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12"
+          class="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-2 lg:grid-cols-4 md:gap-x-8 md:gap-y-16 lg:gap-x-12"
         >
           <div class="flex w-full flex-col items-center text-center">
             <div class="mb-5 md:mb-6">
