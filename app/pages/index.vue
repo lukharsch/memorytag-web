@@ -107,7 +107,7 @@
         </div>
         <div>
           <img
-            src="/hero.png"
+            src="/hero.webp"
             class="w-full rounded-image object-cover max-md:visible hidden max-md:block"
             alt="Relume placeholder image"
           />
@@ -200,7 +200,7 @@
             class="flex w-full flex-col items-center justify-center self-start"
           >
             <img
-              src="/howto/schritt1.png"
+              src="/howto/schritt1.webp"
               alt="Relume placeholder image 1"
               class="object-cover"
               style="aspect-ratio: 8 / 10"
@@ -227,7 +227,7 @@
             class="flex w-full flex-col items-center justify-center self-start"
           >
             <img
-              src="/howto/schritt2.png"
+              src="/howto/schritt2.webp"
               alt="Relume placeholder image 1"
               class="object-cover"
               style="aspect-ratio: 8 / 10"
@@ -252,7 +252,7 @@
             class="flex w-full flex-col items-center justify-center self-start"
           >
             <img
-              src="/howto/schritt3.png"
+              src="/howto/schritt3.webp"
               alt="Relume placeholder image 1"
               class="object-cover"
               style="aspect-ratio: 8 / 10"
@@ -438,7 +438,7 @@
         <div class="flex flex-col text-center">
           <div class="mb-5 flex w-full items-center justify-center md:mb-6">
             <img
-              src="/lukas.jpg"
+              src="/lukas.webp"
               alt="Lukas Harsch, Gründer MemoryTag"
               class="size-20 min-h-20 min-w-20 md:size-36 rounded-full object-cover"
             />
@@ -717,7 +717,7 @@ html {
 
 @media screen and (min-width: 48rem) {
   .hero {
-    background-image: url("/hero-desktop.jpeg");
+    background-image: url("/hero-desktop.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
