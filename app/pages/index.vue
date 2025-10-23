@@ -76,13 +76,12 @@
         <div class="px-[5%]">
           <h1 class="text-4xl mb-5 font-bold md:mb-6">
             Deine Momente.<br />
-            Für immer fühlbar.
+            Für immer bei dir.
           </h1>
           <p class="text-md">
-            MemoryTag verbindet physische Produkte mit digitalen Erinnerungen –
-            damit du besondere Augenblicke nicht nur aufbewahrst, sondern
-            wiedererleben kannst. Unsere Produkte lassen deine Erlebnisse
-            lebendig werden.
+            Ein MemoryTag verbindet physische Produkte mit deinen schönsten
+            Erinnerungen – damit besondere Augenblicke nicht in Vergessenheit
+            geraten, und du sie digital wiedererleben kannst.
           </p>
           <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
             <!--<a
@@ -122,15 +121,20 @@
       <div class="flex flex-col items-center">
         <div class="mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
           <p class="mb-3 font-semibold md:mb-4 text-[var(--primary-color)]">
-            Das ist der MemoryTag
+            Der MemoryTag
           </p>
           <h2 class="text-3xl mb-5 font-bold md:mb-6">
             Kleiner NFC-Chip. Große Wirkung.
           </h2>
           <p class="text-md">
-            Dem MemoryTag verschmelzt physische Objekte mit digitalen
-            Erinnerungen. Sodass deine Lieblingsmomente nie wieder im Nirvana
-            verschwinden - und immer griffbereit sind.
+            Kennst du das? Du erlebst etwas Besonderes und hältst diese Momente
+            mit vielen Bildern und Videos fest. Auch nach einigen Monaten, oder
+            auch Jahren, sind diese Erinnerungen noch immer besonders, aber
+            nicht griffbereit und irgendwo unter einer Vielzahl an Dateien im
+            Nirvana verschwunden. Wir möchten nicht, dass solche unvergesslichen
+            Erlebnisse ihre Bedeutung verlieren. An die schönen Dinge im Leben
+            sollte man sich noch lange erinnern. Und hierbei hilft dir dein
+            MemoryTag.
           </p>
         </div>
         <div
@@ -157,7 +161,7 @@
               <img src="/icons/mood-smile-beam.svg" alt="" class="size-12" />
             </div>
             <h3 class="text-xl mb-5 font-bold md:mb-6 text-pretty">
-              Kein Abo, keine Werbung und keine App nötig
+              Ohne Abo. Ohne App. Ohne Werbung
             </h3>
           </div>
           <div class="flex w-full flex-col items-center text-center">
@@ -165,7 +169,7 @@
               <img src="/icons/heart.svg" alt="" class="size-12" />
             </div>
             <h3 class="text-xl mb-5 font-bold md:mb-6 text-pretty">
-              Erlebe deine schönsten Erinnerungen immer wieder
+              Jederzeit aufrufbar
             </h3>
           </div>
         </div>
@@ -210,7 +214,7 @@
               </h2>
               <p>
                 ... ganz einfach mit den mitgelieferten Klebestreifen.
-                Inspirationen gibt es weiter unten ;)
+                Inspirationen findest du hier.
               </p>
             </div>
           </div>
@@ -232,13 +236,10 @@
           <div class="flex flex-1 flex-col justify-center p-6 md:p-8">
             <div>
               <p class="mb-2 font-semibold">Schritt 2</p>
-              <h2 class="text-xl mb-3 font-bold md:mb-4">
-                Erinnerungen hochladen
-              </h2>
+              <h2 class="text-xl mb-3 font-bold md:mb-4">Medien hochladen</h2>
               <p>
-                ... über das Adminportal, welches nur du mit einem Passwort
-                öffnen kannst. Hier kannst du Bilder (und in Zukunft weitere
-                Inhalte) hochladen.
+                ... in deinem persönlichen Adminbereich. Ganz egal ob zum
+                Beispiel Bilder oder Videos.
               </p>
             </div>
           </div>
@@ -264,9 +265,9 @@
                 Erinnerungen wieder erleben
               </h2>
               <p>
-                ... indem du dein Smartphone einfach an den MemoryTag am
-                Gegenstand hältst. Das digitale Album öffnet sich mit einem Tap
-                automatisch - keine App nötig!
+                ...indem du einfach dein Smartphone für einen kurze Moment an
+                den MemoryTag hältst. Das digitale Album öffnet sich nun
+                automatisch - keine App nötig.
               </p>
             </div>
           </div>
@@ -583,18 +584,16 @@
         class="grid grid-rows-1 items-start gap-y-5 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:gap-x-20 lg:gap-y-16"
       >
         <div>
-          <h1 class="text-3xl font-bold text-white">
-            Haben wir euch überzeugt?
-          </h1>
+          <h1 class="text-3xl font-bold text-white">Hab ich euch überzeugt?</h1>
         </div>
         <div>
           <p class="text-md text-white">
-            Wir wollen unser Produkt im November auf dem Elevator Pitch der IHK
-            Ulm-Biberach vorstellen - um unsere Vision weiterzutragen. Wenn ihr
-            uns unterstützen wollt, könnt ihr gerne für uns abstimmen. Ihr wollt
-            zu den ersten gehören, die den MemoryTag ihr Eigen nennen? Tragt
-            euch in unsere Warteliste ein und werdet informiert, sobald es den
-            MemoryTag zu kaufen gibt.
+            Ich möchte den MemoryTag im November auf dem Elevator Pitch der IHK
+            Ulm-Biberach vorstellen - um meine Vision weiterzutragen. Wenn ihr
+            mich unterstützen wollt, könnt ihr gerne für den MemoryTag
+            abstimmen. Ihr wollt zu den ersten gehören, die den MemoryTag ihr
+            Eigen nennen? Tragt euch in unsere Warteliste ein und werdet
+            informiert, sobald es den MemoryTag zu kaufen gibt.
           </p>
           <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
             <a
