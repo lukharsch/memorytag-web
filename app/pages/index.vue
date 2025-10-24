@@ -304,13 +304,12 @@
               <span class="text-md mr-5 font-semibold md:mr-6">01</span>
               <span class="text-md font-semibold"> Die Weltreise! </span>
             </span>
-            <div class="py-8">
+            <div class="pb-12 pt-2 lg:py-8">
               <div
-                class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
+                class="grid grid-cols-1 gap-y-6 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
               >
                 <div>
-                  <p class="mb-3 font-semibold md:mb-4">Reisen</p>
-                  <h2 class="text-3xl mb-5 font-bold md:mb-6">
+                  <h2 class="text-2xl lg:text-3xl mb-5 font-bold md:mb-6">
                     So viel erlebt - und du steckst nur Fähnchen in die
                     besuchten Länder?
                   </h2>
@@ -349,15 +348,12 @@
               <span class="text-md mr-5 font-semibold md:mr-6">02</span>
               <span class="text-md font-semibold">Ja, ich will!</span>
             </span>
-            <div class="py-8">
+            <div class="pb-12 pt-2 lg:py-8">
               <div
-                class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
+                class="grid grid-cols-1 gap-y-6 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
               >
                 <div>
-                  <p class="mb-3 font-semibold md:mb-4">
-                    Augenblicke die für immer halten!
-                  </p>
-                  <h2 class="text-3xl mb-5 font-bold md:mb-6">
+                  <h2 class="text-2xl lg:text-3xl mb-5 font-bold md:mb-6">
                     Eure Hochzeit - ein unvergesslicher Tag!
                   </h2>
                   <p class="text-md">
@@ -393,13 +389,12 @@
               <span class="text-md mr-5 font-semibold md:mr-6">03</span>
               <span class="text-md font-semibold">Neuer Lebensabschnitt!</span>
             </span>
-            <div class="py-8">
+            <div class="pb-12 pt-2 lg:py-8">
               <div
-                class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
+                class="grid grid-cols-1 gap-y-6 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
               >
                 <div>
-                  <p class="mb-3 font-semibold md:mb-4">Hausbau</p>
-                  <h2 class="text-3xl mb-5 font-bold md:mb-6">
+                  <h2 class="text-2xl lg:text-3xl mb-5 font-bold md:mb-6">
                     Dein Hausbau. Eine Zeit zum nicht-vergessen!
                   </h2>
                   <p class="text-md">
@@ -435,13 +430,12 @@
               <span class="text-md mr-5 font-semibold md:mr-6">04</span>
               <span class="text-md font-semibold"> Ein kleines Wunder! </span>
             </span>
-            <div class="py-8">
+            <div class="pb-12 pt-2 lg:py-8">
               <div
-                class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
+                class="grid grid-cols-1 gap-y-6 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
               >
                 <div>
-                  <p class="mb-3 font-semibold md:mb-4">Die ersten Jahre</p>
-                  <h2 class="text-3xl mb-5 font-bold md:mb-6">
+                  <h2 class="text-2xl lg:text-3xl mb-5 font-bold md:mb-6">
                     Von der Geburt bis zu den ersten eigenen Schritten.
                   </h2>
                   <p class="text-md">
