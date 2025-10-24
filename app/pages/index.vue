@@ -48,13 +48,13 @@
       ><img src="/logo-white.svg" alt="Logo image" class="h-10"
     /></a>
     <div class="flex min-h-16 items-center justify-end gap-x-4 max-sm:hidden">
-      <a href="https://my-momentify.de">
+      <!--<a href="https://my-momentify.de">
         <img
           src="/icons/shopping-cart.svg"
           alt="Shopping Cart"
           class="h-6 w-6"
         />
-      </a>
+      </a>-->
       <!--<a
           data-slot="button"
           class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-neutral-300 bg-neutral-950 text-neutral-300 px-4 py-1 md:px-6 md:py-2"
@@ -119,7 +119,7 @@
   <section class="px-[5%] py-16 md:py-24 lg:py-28" id="funktionsweise">
     <div class="container">
       <div class="flex flex-col items-center">
-        <div class="mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
+        <div class="mb-12 w-full max-w-xl text-center md:mb-18 lg:mb-20">
           <p class="mb-3 font-semibold md:mb-4 text-[var(--primary-color)]">
             Der MemoryTag
           </p>
@@ -302,9 +302,7 @@
           <div class="container">
             <span class="flex h-16 w-full items-center underline">
               <span class="text-md mr-5 font-semibold md:mr-6">01</span>
-              <span class="text-md font-semibold">
-                Fotoleinwand deiner Weltreise
-              </span>
+              <span class="text-md font-semibold"> Die Weltreise! </span>
             </span>
             <div class="py-8">
               <div
@@ -313,22 +311,28 @@
                 <div>
                   <p class="mb-3 font-semibold md:mb-4">Reisen</p>
                   <h2 class="text-3xl mb-5 font-bold md:mb-6">
-                    So viel erlebt - und du zeigst nur ein Bild?
+                    So viel erlebt - und du steckst nur Fähnchen in die
+                    besuchten Länder?
                   </h2>
                   <p class="text-md">
-                    Auf einer Reise werden viele Momente erlebt - eine
-                    Fotoleinwand (oder ein eingerahmtes Bild) zeigt nur einen
-                    davon. Eine kulinarische Besonderheit? Das witzige Selfie
-                    mit einer fremden Person? Mit MemoryTag kannst du (oder
-                    deine Gäste) all diese Momente wiedererleben - und zwar an
-                    dem Ort, an den sie gehören.
+                    Ein großes Hobby von dir ist das Reisen und du markierst auf
+                    einer Weltkarte, wo du bereits überall warst. Mache diese
+                    Markierung doch mit einem "Flaggen-MemoryTag". Eventuell
+                    fragst nicht nur du dich in 5 Jahren, was nochmal die
+                    schönsten Erlebnisse in Südafrika waren, sondern auch deine
+                    Freunde würden gerne Tipps haben. Einfach den MemoryTag
+                    antippen und schon hast du die Highlights wieder auf einen
+                    Blick sichtbar. - Der Augenblick als du den Löwen gesehen
+                    hast, der Blick auf Kapstadt oder auch die Route der
+                    Rundreise.
                   </p>
                 </div>
                 <div class="relative">
                   <img
-                    src="https://picsum.photos/800/600"
-                    class="h-auto w-full rounded-image object-cover"
-                    alt="Relume placeholder image 1"
+                    src="/anwendung/reisen.webp"
+                    class="w-full rounded-image object-cover"
+                    style="aspect-ratio: 16 / 10"
+                    alt="Karte der Welt mit dem MemoryTag auf Südafrika"
                   />
                 </div>
               </div>
@@ -343,7 +347,7 @@
           <div class="container">
             <span class="flex h-16 w-full items-center underline">
               <span class="text-md mr-5 font-semibold md:mr-6">02</span>
-              <span class="text-md font-semibold">Dein erstes Eigenheim</span>
+              <span class="text-md font-semibold">Ja, ich will!</span>
             </span>
             <div class="py-8">
               <div
@@ -351,24 +355,28 @@
               >
                 <div>
                   <p class="mb-3 font-semibold md:mb-4">
-                    Besondere Lebensabschnitte
+                    Augenblicke die für immer halten!
                   </p>
                   <h2 class="text-3xl mb-5 font-bold md:mb-6">
-                    Dein Hausbau? Ein Moment zum nicht-vergessen!
+                    Eure Hochzeit - ein unvergesslicher Tag!
                   </h2>
                   <p class="text-md">
-                    Stell dir vor: Du baust ein Haus und in 10 Jahren kannst du
-                    deinen Kindern davon nur noch erzählen, weil du alle Fotos
-                    in der Cloud verloren hast. Nicht mit uns! Bringe den
-                    MemoryTag irgendwo im Haus an - z.B. deiner Haustüre - und
-                    halte dein Smartphone dran.
+                    So viele tolle Momente und das an nur einem Tag. Das Bild
+                    der Fotografin ist natürlich wunderschön und wird
+                    dementsprechendauch auf eine Fotoleinwand gedruckt. Aber was
+                    ist mit den anderen einzigartigen Augenblicken an diesem
+                    Tag? - Wie ihr euch das JA-Wort gebt? Das witzige Selfie von
+                    der Party? Oder das Video vom Hochzeitstanz? Mit MemoryTag
+                    kannst du den schönsten Tag deines Lebens, mit all den
+                    unvergessliche Momenten, immer wieder erleben.
                   </p>
                 </div>
                 <div class="relative">
                   <img
-                    src="https://picsum.photos/800/600"
-                    class="h-auto w-full rounded-image object-cover"
-                    alt="Relume placeholder image 2"
+                    src="/anwendung/hochzeit.webp"
+                    class="w-full rounded-image object-cover"
+                    style="aspect-ratio: 16 / 10"
+                    alt="Bild von Brautpaar eingerahmt, mit MemoryTag unten rechts auf dem Rahmen"
                   />
                 </div>
               </div>
@@ -377,39 +385,83 @@
         </div>
       </div>
       <div
-        class="border-t border-neutral-950 bg-white sticky pb-0 top-32 sm:max-md:min-h-[100dvh]"
+        class="border-t border-neutral-950 bg-white sticky pb-0 top-32 mb-4 sm:max-md:min-h-[100dvh]"
       >
         <div class="px-6 md:pb-12">
           <div class="container">
             <span class="flex h-16 w-full items-center underline">
               <span class="text-md mr-5 font-semibold md:mr-6">03</span>
-              <span class="text-md font-semibold">
-                Die ersten Jahre deiner Tochter
-              </span>
+              <span class="text-md font-semibold">Neuer Lebensabschnitt!</span>
             </span>
             <div class="py-8">
               <div
                 class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
               >
                 <div>
-                  <p class="mb-3 font-semibold md:mb-4">Besondere Menschen</p>
+                  <p class="mb-3 font-semibold md:mb-4">Hausbau</p>
                   <h2 class="text-3xl mb-5 font-bold md:mb-6">
-                    In den ersten Lebensjahren passiert viel.
+                    Dein Hausbau. Eine Zeit zum nicht-vergessen!
                   </h2>
                   <p class="text-md">
-                    Das erste Krabbeln, die ersten Schritte oder einfach nur ein
-                    Schnappschuss des süßestens Lächeln. Alles Momente, die es
-                    wert sind, auch in Jahrzenten noch wiedererlebt zu werden.
-                    Befestige den MemoryTag an dem Lieblingskuscheltier deiner
-                    Tochter und hebe dieses auf - und du hast automatisch deine
-                    digitalen Erinnerungen dabei.
+                    Stell dir vor: Du baust ein Haus und in 10 Jahren kannst du
+                    deinen Kindern davon nur noch erzählen, weil alle Fotos
+                    irgendwo unsortiert in der Cloud liegen. Nicht mit uns!
+                    Bringe den MemoryTag irgendwo im Haus an, z.B. an der
+                    Innenseite der Schlafzimmertüre. Und schon kannst du später
+                    deinem Kind zeigen, wie der Kran kam und das Haus
+                    aufgestellt hat oder wie ihr den Boden in seinem Zimmer
+                    verlegt habt.
                   </p>
                 </div>
                 <div class="relative">
                   <img
-                    src="https://picsum.photos/800/600"
-                    class="h-auto w-full rounded-image object-cover"
-                    alt="Relume placeholder image 3"
+                    src="/anwendung/hausbau.webp"
+                    class="w-full rounded-image object-cover"
+                    style="aspect-ratio: 16 / 10"
+                    alt="Baustelle im Hintergrund mit MemoryTag im Vordergrund"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="border-t border-neutral-950 bg-white sticky pb-0 top-48 sm:max-md:min-h-[100dvh]"
+      >
+        <div class="px-6 md:pb-12">
+          <div class="container">
+            <span class="flex h-16 w-full items-center underline">
+              <span class="text-md mr-5 font-semibold md:mr-6">04</span>
+              <span class="text-md font-semibold"> Ein kleines Wunder! </span>
+            </span>
+            <div class="py-8">
+              <div
+                class="grid grid-cols-1 gap-y-12 md:items-center md:gap-x-12 lg:grid-cols-2 lg:gap-x-20"
+              >
+                <div>
+                  <p class="mb-3 font-semibold md:mb-4">Die ersten Jahre</p>
+                  <h2 class="text-3xl mb-5 font-bold md:mb-6">
+                    Von der Geburt bis zu den ersten eigenen Schritten.
+                  </h2>
+                  <p class="text-md">
+                    Vor allem im ersten Lebensjahr deines Kindes passiert so
+                    viel. Das erste Lachen und die ersten Wörter, die ersten
+                    Gehversuche und die ersten Zähne oder einfach nur ein
+                    Schnappschuss des süßestens Lächeln auf der Welt. Alles
+                    Momente, die auch in vielen Jahren noch besonders sind. Für
+                    dich und dein Kind. Befestige den MemoryTag z.B. an dem
+                    Lieblingskuscheltier von damals und dein Kind hat später
+                    eine einzigartige Erinnerungen an sein erstes Lebensjahr.
+                    Ganz egal ob Bild oder Video.
+                  </p>
+                </div>
+                <div class="relative">
+                  <img
+                    src="/anwendung/kind.webp"
+                    class="w-full rounded-image object-cover"
+                    style="aspect-ratio: 16 / 10"
+                    alt="Teddybär im Vordergrund, krabbelndes Kleinkind im Hintergrund"
                   />
                 </div>
               </div>
@@ -591,9 +643,9 @@
             Ich möchte den MemoryTag im November auf dem Elevator Pitch der IHK
             Ulm-Biberach vorstellen - um meine Vision weiterzutragen. Wenn ihr
             mich unterstützen wollt, könnt ihr gerne für den MemoryTag
-            abstimmen. Ihr wollt zu den ersten gehören, die den MemoryTag ihr
-            Eigen nennen? Tragt euch in unsere Warteliste ein und werdet
-            informiert, sobald es den MemoryTag zu kaufen gibt.
+            abstimmen. <br />
+            Bald wird es auch möglich sein, den MemoryTag im Shop
+            vorzubestellen.
           </p>
           <div class="mt-6 flex flex-wrap gap-4 md:mt-8">
             <a
@@ -608,10 +660,9 @@
             </a>
             <a
               data-slot="button"
-              class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-white text-white px-6 py-3"
+              class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-b-neutral-300 text-neutral-300 px-6 py-3 cursor-not-allowed"
               title="Warteliste im Shop"
               role="button"
-              href="https://my-momentify.de"
               target="_blank"
             >
               Warteliste im Shop
