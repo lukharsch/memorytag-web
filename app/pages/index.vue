@@ -654,10 +654,11 @@
             </a>
             <a
               data-slot="button"
-              class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-b-neutral-300 text-neutral-300 px-6 py-3 cursor-not-allowed"
+              class="inline-flex items-center justify-center gap-3 rounded-button whitespace-nowrap transition-all duration-200 ease-in-out focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border border-b-white text-white px-6 py-3"
               title="Warteliste im Shop"
               role="button"
               target="_blank"
+              href="https://my-momentify.de"
             >
               Warteliste im Shop
             </a>
