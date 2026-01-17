@@ -2,6 +2,14 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  routeRules: {
+    "/**": {
+      redirect: {
+        to: "https://www.my-momentify.de/products/memorytag-classic",
+        statusCode: 301,
+      },
+    },
+  },
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxt/eslint", "@nuxt/fonts"],
